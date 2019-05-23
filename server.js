@@ -1,3 +1,9 @@
-const message = 'hello world it works, awesome!';
+var express = require ('express');
 
-console.log(message);
+const PORT = 3000;
+
+const server = express();
+
+server.listen(3000,() => {
+    console.log(`server test on port 3000 ${PORT}`);
+});
