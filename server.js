@@ -8,6 +8,6 @@ app.get("/", (req, res) => {
     res.send("testing route using express.js");
 });
 
-server.listen(3000,() => {
+app.listen(3000,() => {
     console.log(`server test on port ${PORT}`);
 });
