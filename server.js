@@ -1,11 +1,11 @@
 var express = require ('express');
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 const server = express();
 
 server.get("/", (req, res) => {
-    console.log(`testing route for server`);
+    res.send("testing route using express.js");
 });
 
 server.listen(3000,() => {
