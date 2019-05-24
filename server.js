@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3000;
 
 const app = express();
 
-server.get("/", (req, res) => {
+app.get("/", (req, res) => {
     res.send("testing route using express.js");
 });
 
