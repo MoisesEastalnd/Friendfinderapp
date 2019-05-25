@@ -10,7 +10,11 @@ const app = express();
 
 require("./routing/htmlRoutes")(app);
 
+
+
 require("./routing/apiRoutes")(app);
+
+
 app.listen(3000,() => {
     console.log(`server test on port ${PORT}`);
 });
