@@ -5,5 +5,7 @@ module.exports =function(app) {
         res.sendFile(path.join(_dirname, "../public/survey.html"));
     });
 
-    
+    app.get("/", function(req,res){
+        res.sendFile(path.join(_dirname,"../public/home.html"));
+    });
 }
