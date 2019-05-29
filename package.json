@@ -1,7 +1,7 @@
 {
   "name": "Friendfinderapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "connecting friends with the same interest and outlook",
   "main": "apiRoutes.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
