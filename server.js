@@ -15,6 +15,6 @@ require("./routing/htmlRoutes")(app);
 require("./routing/apiRoutes")(app);
 
 
-app.listen(3000,() => {
+app.listen(PORT,() => {
     console.log(`server test on port ${PORT}`);
 });
